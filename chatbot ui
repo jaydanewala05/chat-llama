@@ -1,0 +1,23 @@
+# llama-ui
+
+A sleek Web UI to chat with Meta’s LLaMA 2, 3, and 3.2 models locally using Ollama.
+
+---
+
+# Features
+
+- Chat with LLaMA models (2, 3, and 3.2) locally using [Ollama](https://ollama.com)
+- Minimal Web UI built with HTML + JavaScript frontend and FastAPI backend
+- Python 3.11 tested and compatible
+- Easily extendable for more advanced chat logic
+
+---
+
+# Installed LLaMA Models
+
+Make sure these models are pulled using Ollama:
+
+```bash
+ollama pull llama2
+ollama pull llama3
+ollama pull llama3:3.2
